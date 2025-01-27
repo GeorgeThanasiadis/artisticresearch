@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map of Thought</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Include Panzoom version 9.4.0 from jsdelivr -->
+<script src="https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Map of Thought</h1>
+    </header>
+
+    <main>
+        <!-- Container for the image that will be zoomed and panned -->
+        <div class="map-container" id="map-container">
+            <img src="Map of Thought.jpg" alt="Map of Thought" class="background-image" id="map-image">
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025</p>
+    </footer>
+
+    <!-- Custom Script (This will now run after Panzoom has loaded) -->
+    <script src="script.js" defer></script>
+</body>
+</html>
